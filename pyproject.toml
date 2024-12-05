@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "koroteka-people"
+version = "0.1.0"
+description = ""
+authors = ["Evgenii Rechkalov <snorkysnark@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+fastapi = {extras = ["all"], version = "^0.115.6"}
+psycopg2 = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
